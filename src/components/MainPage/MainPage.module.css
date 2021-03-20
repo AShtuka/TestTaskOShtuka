@@ -1,0 +1,103 @@
+.container {
+  background-color: #282c34;
+  color: white;
+}
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding: 32px 50px 32px 16px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 576px) {
+  .wrapper {
+    padding: 50px 100px;
+  }
+}
+
+.postList {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 576px) {
+  .postList {
+    justify-content: space-between;
+  }
+}
+
+.navBar {
+  position: absolute;
+  bottom: 0;
+  left: calc(100% - 45px);
+  top: 32px;
+  visibility: hidden;
+}
+@media only screen and (min-width: 576px) {
+  .navBar {
+    top: 50px;
+    left: calc(100% - 95px);
+  }
+}
+
+.btnBlock {
+  box-sizing: border-box;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+}
+@media only screen and (min-width: 576px) {
+  .btnBlock {
+    padding: 16px;
+    width: 90px;
+  }
+}
+
+.btn {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 0;
+  border: 1px solid white;
+  margin: 12px 0;
+  border-radius: 30px;
+  transition: all 300ms ease-in-out;
+}
+@media only screen and (min-width: 576px) {
+  .btn {
+    padding: 16px 0;
+    border: 2px solid white;
+    margin: 24px 0;
+  }
+}
+
+.btn svg {
+  width: 35px;
+  height: 35px;
+}
+@media only screen and (min-width: 576px) {
+  .btn svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icon g {
+  fill: white;
+  transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+  border-color: cadetblue;
+}
+
+.btn:hover .icon g {
+  fill: cadetblue;
+}
+
+/*# sourceMappingURL=MainPage.module.css.map */

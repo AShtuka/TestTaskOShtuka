@@ -1,15 +1,18 @@
-import logo from '../../assets/images/logo.svg';
-import Test from '../test/test';
-import './App.scss';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import MainPage from '../MainPage/MainPage';
+import FavoritesPage from '../FavoritesPage/FavoritesPage';
+import AddEditPage from '../AddEditPage/AddEditPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Test />
-      </header>
-    </div>
+    <Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route exact path="/edit/:id"><AddEditPage /></Route>
+        <Route exact path="/add" component={AddEditPage} />
+        <Route exact path="/favorites" component={FavoritesPage} />
+        <Route component={MainPage} />
+    </Switch>
   );
 }
 

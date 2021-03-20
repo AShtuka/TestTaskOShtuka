@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 576px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    max-width: 48%;
+  }
+}
+
+.post {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px 8px;
+  border-bottom: 1px solid white;
+}
+@media only screen and (min-width: 576px) {
+  .post {
+    width: calc(100% - 50px);
+    border-right: 1px solid white;
+    border-bottom: none;
+    padding: 16px;
+  }
+}
+.postTitle {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 120%;
+  color: cadetblue;
+}
+@media only screen and (min-width: 576px) {
+  .postTitle {
+    font-size: 18px;
+  }
+}
+.postBody {
+  font-size: 12px;
+  line-height: 125%;
+  color: blanchedalmond;
+}
+@media only screen and (min-width: 576px) {
+  .postBody {
+    font-size: 14px;
+  }
+}
+
+.navBar {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (min-width: 576px) {
+  .navBar {
+    height: initial;
+    flex-direction: column;
+    width: 50px;
+  }
+}
+
+.icon {
+  width: 30px;
+  transition: all 300ms ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon:hover g {
+  fill: cadetblue;
+}
+
+/*# sourceMappingURL=Post.module.css.map */

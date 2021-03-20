@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import langReducer from './langReducer';
+import postsReducer from './postsReducer';
 
 
 const rootReducer = combineReducers({
-    lang: langReducer,
+    posts: postsReducer,
 });
 
 export default rootReducer;
