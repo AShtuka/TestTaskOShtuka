@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/TestTaskOShtuka/static/css/main.c338992a.chunk.css",
-    "main.js": "/TestTaskOShtuka/static/js/main.fce8bdb8.chunk.js",
-    "main.js.map": "/TestTaskOShtuka/static/js/main.fce8bdb8.chunk.js.map",
+    "main.css": "/TestTaskOShtuka/static/css/main.545ac7a0.chunk.css",
+    "main.js": "/TestTaskOShtuka/static/js/main.bc2546aa.chunk.js",
+    "main.js.map": "/TestTaskOShtuka/static/js/main.bc2546aa.chunk.js.map",
     "runtime-main.js": "/TestTaskOShtuka/static/js/runtime-main.2cf48717.js",
     "runtime-main.js.map": "/TestTaskOShtuka/static/js/runtime-main.2cf48717.js.map",
-    "static/js/2.0a7f66ac.chunk.js": "/TestTaskOShtuka/static/js/2.0a7f66ac.chunk.js",
-    "static/js/2.0a7f66ac.chunk.js.map": "/TestTaskOShtuka/static/js/2.0a7f66ac.chunk.js.map",
+    "static/js/2.af905486.chunk.js": "/TestTaskOShtuka/static/js/2.af905486.chunk.js",
+    "static/js/2.af905486.chunk.js.map": "/TestTaskOShtuka/static/js/2.af905486.chunk.js.map",
     "index.html": "/TestTaskOShtuka/index.html",
-    "static/css/main.c338992a.chunk.css.map": "/TestTaskOShtuka/static/css/main.c338992a.chunk.css.map",
-    "static/js/2.0a7f66ac.chunk.js.LICENSE.txt": "/TestTaskOShtuka/static/js/2.0a7f66ac.chunk.js.LICENSE.txt",
+    "static/css/main.545ac7a0.chunk.css.map": "/TestTaskOShtuka/static/css/main.545ac7a0.chunk.css.map",
+    "static/js/2.af905486.chunk.js.LICENSE.txt": "/TestTaskOShtuka/static/js/2.af905486.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/TestTaskOShtuka/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2cf48717.js",
-    "static/js/2.0a7f66ac.chunk.js",
-    "static/css/main.c338992a.chunk.css",
-    "static/js/main.fce8bdb8.chunk.js"
+    "static/js/2.af905486.chunk.js",
+    "static/css/main.545ac7a0.chunk.css",
+    "static/js/main.bc2546aa.chunk.js"
   ]
 }
