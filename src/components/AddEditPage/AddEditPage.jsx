@@ -55,8 +55,8 @@ const AddEditPage = () => {
     useEffect(() => {
         dispatch(scrollToBottom(false));
         if (id) {
-            const item = posts.find((post) => post.id === Number(id));
-            item.isMark ? item.isMark = true : item.isMark = false;
+            const item = posts.find((post) => +post.id === +id);
+            item && item.isMark ? item.isMark = true : item.isMark = false;
             setUpdatedPost(item);
         }
     }, []);

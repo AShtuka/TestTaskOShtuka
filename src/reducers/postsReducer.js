@@ -16,7 +16,7 @@ const deletePost = (posts, id) => {
 };
 
 const patchPost = (posts, post) => {
-    const index = posts.findIndex((item) => item.id === post.id);
+    const index = posts.findIndex((item) => +item.id === +post.id);
     const result = [...posts];
     result[index] = post;
     return result;

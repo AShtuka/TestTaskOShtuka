@@ -9,8 +9,8 @@ const Post = (props) => {
     const { item } = props;
     const dispatch = useDispatch();
     const patchHandler = () => {
-        if (item.isMark) return dispatch(patchPost(item.id, {isMark: false}));
-        return dispatch(patchPost(item.id, {isMark: true}));
+        if (item.isMark) return dispatch(patchPost({...item, isMark: false}));
+        return dispatch(patchPost({...item, isMark: true}));
     }
     return (
         <li className={styles.wrapper}>

@@ -80,17 +80,17 @@ export const deletePost = (id) => {
     };
 };
 
-export const patchPost = (id, data) => {
+export const patchPost = (data) => {
     const { patchPost } = new JSONPlaceholderService();
 
     return (dispatch) => {
         dispatch(request());
 
         setTimeout(() => {
-            patchPost(id, data)
+            patchPost(data.id, data)
                 .then((response) => {
                     console.log('patch', response);
-                    dispatch(patchPostSuccess(response.data));
+                    dispatch(patchPostSuccess(data));
                 })
                 .catch(() => {
                     dispatch(failure());
@@ -120,15 +120,16 @@ export const addPost = (data) => {
 
 export const updatePost = (id, data) => {
     const { updatePost } = new JSONPlaceholderService();
+    const ID = id < 100 ? id : 100;
 
     return (dispatch) => {
         dispatch(request());
 
         setTimeout(() => {
-            updatePost(id, data)
+            updatePost(ID, data)
                 .then((response) => {
                     console.log('update', response);
-                    dispatch(updatePostSuccess(response.data));
+                    dispatch(updatePostSuccess({...response.data, id}));
                 })
                 .catch(() => {
                     dispatch(failure());
