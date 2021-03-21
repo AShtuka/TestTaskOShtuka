@@ -1,3 +1,96 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+@media only screen and (min-width: 768px) {
+  .inputContainer {
+    flex-direction: row;
+  }
+}
 
+.title {
+  font-size: 24px;
+  line-height: 120%;
+  color: cadetblue;
+}
+@media only screen and (min-width: 576px) {
+  .title {
+    width: 170px;
+    font-size: 30px;
+  }
+}
+
+.body {
+  font-size: 16px;
+  line-height: 125%;
+  color: blanchedalmond;
+}
+@media only screen and (min-width: 576px) {
+  .body {
+    font-size: 22px;
+  }
+}
+
+.input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .input {
+    max-width: calc(100% - 170px);
+  }
+}
+
+.inputTitle {
+  color: cadetblue;
+  font-size: 24px;
+  border-bottom: 2px solid cadetblue;
+}
+@media only screen and (min-width: 576px) {
+  .inputTitle {
+    font-size: 30px;
+  }
+}
+
+.inputBody {
+  color: blanchedalmond;
+  font-size: 16px;
+  border-bottom: 2px solid blanchedalmond;
+}
+@media only screen and (min-width: 576px) {
+  .inputBody {
+    font-size: 22px;
+  }
+}
+
+div.wrapper {
+  padding: 32px 16px;
+}
+@media only screen and (min-width: 576px) {
+  div.wrapper {
+    padding: 50px 100px;
+  }
+}
+
+.navBar {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+  .navBar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.navBar button {
+  margin-top: 24px;
+}
 
 /*# sourceMappingURL=AddEditPage.module.css.map */

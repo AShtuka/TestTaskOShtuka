@@ -1,0 +1,24 @@
+.errorContainer {
+  margin-top: -30vh;
+}
+
+.error {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=ErrorIndicator.module.css.map */

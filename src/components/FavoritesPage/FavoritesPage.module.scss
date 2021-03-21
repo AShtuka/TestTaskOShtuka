@@ -1,0 +1,24 @@
+@import "../../assets/scss/breakpoints";
+
+.title {
+  font-size: 24px;
+  text-align: center;
+
+  @include respond-to(m) {
+    font-size: 45px;
+  }
+}
+
+.btnContainer {
+  display: block;
+  text-align: center;
+  margin: 50px 0 0;
+}
+
+div.wrapper {
+  padding: 32px 16px;
+
+  @include respond-to(s) {
+    padding: 50px 100px;
+  }
+}

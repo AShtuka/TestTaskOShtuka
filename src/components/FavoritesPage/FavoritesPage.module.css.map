@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"FavoritesPage.module.css"}
+{"version":3,"sourceRoot":"","sources":["FavoritesPage.module.scss","../../assets/scss/breakpoints.scss"],"names":[],"mappings":"AAEA;EACE;EACA;;ACUE;EDZJ;IAKI;;;;AAIJ;EACE;EACA;EACA;;;AAGF;EACE;;ACPE;EDMJ;IAII","file":"FavoritesPage.module.css"}

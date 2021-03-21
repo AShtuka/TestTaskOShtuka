@@ -1,32 +1,5 @@
 @import "../../assets/scss/breakpoints";
 
-.container {
-  background-color: #282c34;
-  color: white;
-}
-.wrapper {
-  position: relative;
-  box-sizing: border-box;
-  padding: 32px 50px 32px 16px;
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-
-  @include respond-to(s) {
-    padding: 50px 100px;
-  }
-}
-
-.postList {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-
-  @include respond-to(s) {
-    justify-content: space-between;
-  }
-}
-
 .navBar {
   position: absolute;
   bottom: 0;
